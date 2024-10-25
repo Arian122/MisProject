@@ -1,0 +1,90 @@
+/* Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fae7b2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar styling */
+nav {
+    
+    background-color: #2d2d2d;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+/* Common styling */
+main {
+    padding: 20px;
+    text-align: center ;
+}
+h1 {
+    color: #030303;
+    font-family: 'Lobster', cursive;
+   
+}
+img {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Grid for Top 5 Anime Page */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.anime-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.anime-item img {
+    width: 500px;
+    height: 400px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.anime-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333;
+}
+/* Grid for Top 5 Manga Page */
+.manga-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+
+/* Flex for Reviews */
+.flex-reviews {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Additional styling */
+p {
+    margin: 10px 0;
+}
